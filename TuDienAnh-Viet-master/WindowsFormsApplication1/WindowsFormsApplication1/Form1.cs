@@ -196,7 +196,7 @@ namespace WindowsFormsApplication1
                 {
                     string data = (cbWord.SelectedItem as DictData).Key;
                     Form2 forma = new Form2(data);
-                    forma.Show();
+                    forma.ShowDialog();
                 }
             }
             else
@@ -208,7 +208,7 @@ namespace WindowsFormsApplication1
         private void button2_Click(object sender, EventArgs e)
         {
             Form4 formtt = new Form4();
-            formtt.Show();
+            formtt.ShowDialog();
         }
 
         private void button1_Click_2(object sender, EventArgs e)
@@ -219,7 +219,7 @@ namespace WindowsFormsApplication1
                 {
                     string data = (cbWord.SelectedItem as DictData).Key;
                     Form3 formb = new Form3(data);
-                    formb.Show();
+                    formb.ShowDialog();
                 }
             }
             else

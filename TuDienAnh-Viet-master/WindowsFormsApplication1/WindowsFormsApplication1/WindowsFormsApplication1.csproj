@@ -124,6 +124,9 @@
   <ItemGroup>
     <None Include="Resources\kisspng-emoji-loudspeaker-sound-unicode-symbol-5ae58e97a5e8d0.4828862015249936876796.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

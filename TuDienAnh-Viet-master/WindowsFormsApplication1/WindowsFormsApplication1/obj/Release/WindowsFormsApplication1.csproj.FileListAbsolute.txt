@@ -1,0 +1,7 @@
+E:\GitHub\TuDienAnh-Viet-master\WindowsFormsApplication1\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.Form1.resources
+E:\GitHub\TuDienAnh-Viet-master\WindowsFormsApplication1\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.Form2.resources
+E:\GitHub\TuDienAnh-Viet-master\WindowsFormsApplication1\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.Form3.resources
+E:\GitHub\TuDienAnh-Viet-master\WindowsFormsApplication1\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.Form4.resources
+E:\GitHub\TuDienAnh-Viet-master\WindowsFormsApplication1\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.Properties.Resources.resources
+E:\GitHub\TuDienAnh-Viet-master\WindowsFormsApplication1\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.csproj.GenerateResource.cache
+E:\GitHub\TuDienAnh-Viet-master\WindowsFormsApplication1\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.csproj.CoreCompileInputs.cache
