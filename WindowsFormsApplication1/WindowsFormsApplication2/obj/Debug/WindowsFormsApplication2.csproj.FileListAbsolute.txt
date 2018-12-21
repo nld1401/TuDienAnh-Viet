@@ -1,9 +1,0 @@
-C:\Users\ADMIN\Desktop\TuDienAnh-Viet-master\TuDienAnh-Viet-master\WindowsFormsApplication1\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe.config
-C:\Users\ADMIN\Desktop\TuDienAnh-Viet-master\TuDienAnh-Viet-master\WindowsFormsApplication1\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe
-C:\Users\ADMIN\Desktop\TuDienAnh-Viet-master\TuDienAnh-Viet-master\WindowsFormsApplication1\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.pdb
-C:\Users\ADMIN\Desktop\TuDienAnh-Viet-master\TuDienAnh-Viet-master\WindowsFormsApplication1\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.csprojResolveAssemblyReference.cache
-C:\Users\ADMIN\Desktop\TuDienAnh-Viet-master\TuDienAnh-Viet-master\WindowsFormsApplication1\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.Form1.resources
-C:\Users\ADMIN\Desktop\TuDienAnh-Viet-master\TuDienAnh-Viet-master\WindowsFormsApplication1\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.Properties.Resources.resources
-C:\Users\ADMIN\Desktop\TuDienAnh-Viet-master\TuDienAnh-Viet-master\WindowsFormsApplication1\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.csproj.GenerateResource.Cache
-C:\Users\ADMIN\Desktop\TuDienAnh-Viet-master\TuDienAnh-Viet-master\WindowsFormsApplication1\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.exe
-C:\Users\ADMIN\Desktop\TuDienAnh-Viet-master\TuDienAnh-Viet-master\WindowsFormsApplication1\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.pdb
