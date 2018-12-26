@@ -5,3 +5,10 @@ E:\GitHub\TuDienAnh-Viet\TuDienAnh-Viet\CoverSQL-to-XML\CoverToXML\obj\Debug\Cov
 E:\GitHub\TuDienAnh-Viet\TuDienAnh-Viet\CoverSQL-to-XML\CoverToXML\obj\Debug\CoverToXML.csproj.CoreCompileInputs.cache
 E:\GitHub\TuDienAnh-Viet\TuDienAnh-Viet\CoverSQL-to-XML\CoverToXML\obj\Debug\CoverToXML.exe
 E:\GitHub\TuDienAnh-Viet\TuDienAnh-Viet\CoverSQL-to-XML\CoverToXML\obj\Debug\CoverToXML.pdb
+E:\GitHub\CoverSQL-to-XML\CoverToXML\bin\Debug\CoverToXML.exe.config
+E:\GitHub\CoverSQL-to-XML\CoverToXML\bin\Debug\CoverToXML.exe
+E:\GitHub\CoverSQL-to-XML\CoverToXML\bin\Debug\CoverToXML.pdb
+E:\GitHub\CoverSQL-to-XML\CoverToXML\obj\Debug\CoverToXML.csprojAssemblyReference.cache
+E:\GitHub\CoverSQL-to-XML\CoverToXML\obj\Debug\CoverToXML.csproj.CoreCompileInputs.cache
+E:\GitHub\CoverSQL-to-XML\CoverToXML\obj\Debug\CoverToXML.exe
+E:\GitHub\CoverSQL-to-XML\CoverToXML\obj\Debug\CoverToXML.pdb

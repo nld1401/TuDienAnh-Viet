@@ -14,18 +14,17 @@ namespace coverXML
     {
         static void Main(string[] args)
         {
-            // Phải tạo file mySchema.XML rỗng trước 
-            System.IO.FileStream myFileStream = new System.IO.FileStream("E:\\GitHub\\TuDienAnh-Viet\\TuDienAnh-Viet\\CoverSQL-to-XML\\data.xml", System.IO.FileMode.Create);
+            //  tạo file data.XML rỗng  
+            System.IO.FileStream myFileStream = new System.IO.FileStream("data.xml", System.IO.FileMode.Create);
             System.Xml.XmlTextWriter MyXmlTextWriter = new System.Xml.XmlTextWriter
                                                        (myFileStream, System.Text.Encoding.Unicode);
             try
             {
-                // 
-                // ID: tên đăng nhập,  password: mật khẩu,  Initial Catalog: tên Database, Data Source: Sever Name
+                // string connecting
                 SqlConnection con = new SqlConnection("User ID=sa;password=sa;Initial Catalog=AnhViet; Data Source =DESKTOP-56V3QUV");
                 // lệnh sql 
                 SqlDataAdapter daCust = new SqlDataAdapter("SELECT * FROM dbo.DictData", con);
-                DataSet ds = new DataSet();
+                DataSet ds = new DataSet();     
                 daCust.Fill(ds, "DictData");
                 ds.WriteXml(MyXmlTextWriter, XmlWriteMode.WriteSchema);
                 // thành công

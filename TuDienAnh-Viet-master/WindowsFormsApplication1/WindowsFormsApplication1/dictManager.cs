@@ -37,7 +37,7 @@ namespace WindowsFormsApplication1
 
         public void Serialize()
         {
-            SerializeToXML(Items, filePath);
+            
         }
 
         private void SerializeToXML(object data, string filePath)
@@ -46,7 +46,7 @@ namespace WindowsFormsApplication1
 
             XmlSerializer sr = new XmlSerializer(typeof(DictItem));
 
-            sr.Serialize(fs, data);
+            SerializeToXML(Items, filePath);
 
             fs.Close();
         }
