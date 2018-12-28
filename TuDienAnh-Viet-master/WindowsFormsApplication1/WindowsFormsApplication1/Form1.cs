@@ -14,32 +14,70 @@ using System.Runtime.InteropServices;
 using System.Windows.Forms;
 using System.Speech;
 using System.Speech.Synthesis;
+using MaterialSkin;
+using MaterialSkin.Controls;
 
 namespace WindowsFormsApplication1
 {
-    public partial class Form1 : Form
+    public partial class Form1 : MaterialForm
     {
         DictManager dictionary;
-        
         string gt = "Default";
         string tuoi = "Default";
-        
+        SpeechSynthesizer sp;
+
+
         public Form1()
         {
             InitializeComponent();
-
-          //  changeloading();
-
-            cbWord.DisplayMember = "Key";
-           
-            dictionary = new DictManager();
-
-            dictionary.LoadDataToCombobox(cbWord);
             
 
-        }
 
-       
+            cbWord.DisplayMember = "Key";
+            dictionary = new DictManager();
+            dictionary.LoadDataToCombobox(cbWord);
+            #region webbroswer demo 1
+            //  changeloading();
+            // WebBrowser wbvn = new WebBrowser();
+            // wbvn.Width = 0;
+            // wbvn.Height = 0;
+            // wbvn.Visible = false;
+            // wbvn.ScriptErrorsSuppressed = true;
+            // wbvn.Navigate(Cons.vietnamlink);
+            // wbvn.DocumentCompleted += Wbvn_DocumentCompleted;
+            //this.Controls.Add(wbvn);
+
+            // WebBrowser wbeng = new WebBrowser();
+            //wbeng.Width = 500 ;
+            //wbeng.Height = 500;
+            //wbeng.Visible = true;
+            //wbeng.ScriptErrorsSuppressed = true;
+            //wbeng.Navigate(Cons.englishlink);
+            //wbeng.DocumentCompleted += Wbeng_DocumentCompleted;         
+            //this.Controls.Add(wbeng);
+
+            //speakvn = new SpeakText(wbvn);
+            //speakeng = new SpeakText(wbeng);
+            #endregion
+        }
+        #region webbroswer demo 2
+        // private void Wbeng_DocumentCompleted(object sender, WebBrowserDocumentCompletedEventArgs e)
+        // {
+        //     loading1 = false;
+        //     changeloading();
+        // }
+
+        // private void Wbvn_DocumentCompleted(object sender, WebBrowserDocumentCompletedEventArgs e)
+        // {
+        //     loading2 = false;
+        //     changeloading();
+        // }
+
+        // void changeloading()
+        // {
+        //     this.Enabled = !(loading2 && loading1);
+        // }
+        #endregion
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
             ComboBox cb = cbWord as ComboBox;
@@ -55,17 +93,7 @@ namespace WindowsFormsApplication1
         private void button1_Click(object sender, EventArgs e)
         {
 
-            //bool ckin = internet.ISINTERNETCONNECTED();
-            // if (ckin = false)
-            //{
-            // MessageBox.Show("Bạn cần kết nối Internet để sử dụng tính năng này.", "Thông báo", MessageBoxButtons.OK);
-            //return;
-            // }
-            // else
-            //{
-            // speakeng.Speak((cbWord.SelectedItem as DictData).Key);
-
-            //}
+            
             SpeechSynthesizer sp = new SpeechSynthesizer();
             #region setGenderAge
             switch (gt)
@@ -157,11 +185,7 @@ namespace WindowsFormsApplication1
 
             }
             #endregion
-
-
             sp.Speak((cbWord.SelectedItem as DictData).Key);
-
-
         }
 
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
@@ -170,23 +194,7 @@ namespace WindowsFormsApplication1
             {
                 e.Cancel = true;
             }
-        }
-
-        private void panel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void button1_Click_1(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btnSpkMean_Click(object sender, EventArgs e)
-        {
-            
-        }
-
+        }       
         private void btimage_Click(object sender, EventArgs e)
         {
 
@@ -196,7 +204,7 @@ namespace WindowsFormsApplication1
                 {
                     string data = (cbWord.SelectedItem as DictData).Key;
                     Form2 forma = new Form2(data);
-                    forma.ShowDialog();
+                    forma.Show();
                 }
             }
             else
@@ -208,7 +216,7 @@ namespace WindowsFormsApplication1
         private void button2_Click(object sender, EventArgs e)
         {
             Form4 formtt = new Form4();
-            formtt.ShowDialog();
+            formtt.Show();
         }
 
         private void button1_Click_2(object sender, EventArgs e)
@@ -219,7 +227,7 @@ namespace WindowsFormsApplication1
                 {
                     string data = (cbWord.SelectedItem as DictData).Key;
                     Form3 formb = new Form3(data);
-                    formb.ShowDialog();
+                    formb.Show();
                 }
             }
             else
@@ -248,7 +256,7 @@ namespace WindowsFormsApplication1
 
         private void tuổiToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+           
         }
 
         private void aToolStripMenuItem_Click(object sender, EventArgs e)
@@ -259,7 +267,7 @@ namespace WindowsFormsApplication1
 
         private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
         {
-
+            
         }
 
         private void childToolStripMenuItem_Click(object sender, EventArgs e)
@@ -310,5 +318,15 @@ namespace WindowsFormsApplication1
             MessageBox.Show("Bạn đã set thành công VoiceGender: Default", "Thông báo", MessageBoxButtons.OK);
         }
         #endregion
+
+        private void tbMean_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void materialTabSelector1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

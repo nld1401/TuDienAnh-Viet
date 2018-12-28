@@ -21,13 +21,7 @@ namespace WindowsFormsApplication1
             wb2.Height = panel1.Height;
             wb2.Width = panel1.Width;
             wb2.Visible = true;
-            wb2.Navigate(link);
-        
-
-
-
-
-
+            wb2.Navigate(link);  
 
         }
         

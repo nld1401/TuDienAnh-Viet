@@ -22,9 +22,7 @@ namespace WindowsFormsApplication1
             wb.Width = panel1.Width;
             wb.Visible = true;
             wb.ScriptErrorsSuppressed = true;
-            wb.Navigate(link);
-
-            //wb.Document.GetElementFromPoint ().InnerText = "abcdef";
+            wb.Navigate(link);            
         }
 
         private void Form2_Load(object sender, EventArgs e)
