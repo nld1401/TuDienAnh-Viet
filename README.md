@@ -9,8 +9,9 @@ mssv: 17520004
 ## 1.PHÂN TÍCH VÀ THIẾT KẾ CHƯƠNG TRÌNH
 ### 1.	Thiết kế cơ sở dữ liệu 
 •	Mô tả cấu trúc XML database:
+
 Cú pháp XML cơ bản cho một phần tử là: 
-         <tên thuộc_tính="giá trị">nội dung</tên>
+><tên thuộc_tính="giá trị">nội dung</tên>
 
 •	Cấu trúc file data.xml: 
 ><DictItem>
